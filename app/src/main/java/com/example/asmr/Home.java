@@ -15,10 +15,10 @@ public class Home extends Fragment {
 
     public Home() {
         // Required empty public constructor
-
-
     }
-    Button button1;
+
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
