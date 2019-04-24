@@ -25,6 +25,12 @@
             android:layout_weight="1"
             android:background="#333"
             android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="하이헬로"
+                android:textColor="#fff"/>
         </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
