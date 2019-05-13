@@ -58,7 +58,8 @@ public class Main2Activity_tapping extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mp.stop(); try {
+                mp.stop();
+                try {
                     mp.prepare();
                 }
                 catch(IOException ie) {
@@ -70,10 +71,54 @@ public class Main2Activity_tapping extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 mp.pause();
             }
         });
 
 
     }
+    public void Thread(){
+        Runnable task = new Runnable(){
+
+
+            public void run(){
+                // 음악이 재생중일때
+                while(mp.isPlaying()){
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                    }
+                    seekBar.setProgress(mp.getCurrentPosition());
+                }
+            }
+        };
+        Thread thread = new Thread(task);
+        thread.start();
+    }
+
+
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // Handle action bar item clicks here. The action bar will
+//        // automatically handle clicks on the Home/Up button, so long
+//        // as you specify a parent activity in AndroidManifest.xml.
+//        int id = item.getItemId();
+//
+//        //noinspection SimplifiableIfStatement
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 }

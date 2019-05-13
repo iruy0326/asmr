@@ -31,17 +31,46 @@
             android:background="#333"
             android:orientation="vertical">
 
-            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="- 음악 재생 플레이어 -" android:layout_margin="20dp" android:layout_gravity="center"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="- 음악 재생 플레이어 -"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
 
-            <SeekBar android:layout_height="wrap_content" android:layout_width="320dp" android:layout_gravity="center_vertical|center_horizontal" android:progress="0" android:padding="10dp" android:max="60000" android:id="@+id/playbar"/>
+            <SeekBar
+                android:layout_height="wrap_content"
+                android:layout_width="320dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:progress="0"
+                android:padding="10dp"
+                android:max="60000"
+                android:id="@+id/playbar"/>
 
-            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="right" android:id="@+id/text1" android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="right"
+                android:id="@+id/text1"
+                android:layout_marginRight="10dp"/>
 
-            <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="음악재생" android:id="@+id/button1"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="음악재생"
+                android:id="@+id/button1"/>
 
-            <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="음악정지" android:id="@+id/button2"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="음악정지"
+                android:id="@+id/button2"/>
 
-            <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="일시정지" android:id="@+id/button3"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="일시정지"
+                android:id="@+id/button3"/>
 
 
         </LinearLayout>
