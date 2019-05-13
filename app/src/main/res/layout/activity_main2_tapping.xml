@@ -31,53 +31,17 @@
             android:background="#333"
             android:orientation="vertical">
 
-            <Button
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="시작"
-                android:layout_alignParentLeft="true"
-                android:id="@+id/button1"/>
-                <!--android:layout_below="@+id/textView1"/>-->
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="- 음악 재생 플레이어 -" android:layout_margin="20dp" android:layout_gravity="center"/>
 
-            <Button
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="일시정지"
-                android:id="@+id/button2"
-                android:layout_below="@+id/button1"
-                android:visibility="invisible"/>
-                <!--android:layout_alignLeft="@+id/button1"-->
+            <SeekBar android:layout_height="wrap_content" android:layout_width="320dp" android:layout_gravity="center_vertical|center_horizontal" android:progress="0" android:padding="10dp" android:max="60000" android:id="@+id/playbar"/>
 
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="right" android:id="@+id/text1" android:layout_marginRight="10dp"/>
 
+            <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="음악재생" android:id="@+id/button1"/>
 
-            <Button
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="재시작"
-                android:id="@+id/button3"
-                android:layout_below="@+id/button2"
-                android:visibility="invisible"/>
-                <!--android:layout_alignLeft="@+id/button2"-->
+            <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="음악정지" android:id="@+id/button2"/>
 
-
-
-            <Button
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="종료"
-                android:id="@+id/button4"
-                android:layout_below="@+id/button3"
-                android:visibility="invisible"/>
-                <!--android:layout_alignLeft="@+id/button3"-->
-
-
-
-            <SeekBar
-                android:id="@+id/seekBar1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="18dp" />
-                <!--android:layout_below="@+id/button4"-->
+            <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="일시정지" android:id="@+id/button3"/>
 
 
         </LinearLayout>
