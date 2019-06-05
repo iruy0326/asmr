@@ -94,7 +94,8 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="- 음악 재생 플레이어 -"
-                    android:layout_margin="20dp" />
+                    android:layout_margin="20dp"
+                    android:textColor="#fff"/>
 
                 <SeekBar
                     android:id="@+id/playbar2"
@@ -110,7 +111,8 @@
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:layout_gravity="right"
-                    android:layout_marginRight="10dp"/>
+                    android:layout_marginRight="10dp"
+                    android:textColor="#fff"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -146,7 +148,8 @@
                     android:layout_width="wrap_content"
                     android:text="- 음악 재생 플레이어 -"
                     android:layout_margin="20dp"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:textColor="#fff"/>
 
                 <SeekBar
                     android:id="@+id/playbar3"
@@ -162,7 +165,8 @@
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:layout_gravity="right"
-                    android:layout_marginRight="10dp"/>
+                    android:layout_marginRight="10dp"
+                    android:textColor="#fff"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

@@ -1,8 +1,6 @@
 package com.example.asmr;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -10,7 +8,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 
 public class Home extends Fragment {
@@ -48,14 +45,14 @@ public class Home extends Fragment {
         view.findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Main2Activity_role.class);
+                Intent intent = new Intent(getActivity(), Main2Activity_mouth.class);
                 startActivity(intent);
             }
         });
         view.findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Main2Activity_mouth.class);
+                Intent intent = new Intent(getActivity(), Main2Activity_role.class);
                 startActivity(intent);
             }
         });
