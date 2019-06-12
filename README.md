@@ -29,9 +29,10 @@
  - 헤드셋
  - 자체 듣기
 
-### 5. 조원 역할 구분
-|<center>조원명<center>|<center>주요 활동<center>|
-|:--------|:--------:|--------:|
-|**이유리** | <center>layout 구성 및 java, 기능 제작, 디자인 구성 및 제작</center> |
-|**이우진** | <center>layout 구성, 주제선정, layout 구성</center> |
-|**조은솔** | <center>layout 구성, 아이콘 제작, intro 화면 제작</center> |
+### 5. 팀원 역할 구분
+팀원명  | 역할
+------------- | -------------
+이유리  | <center>layout 구성 및 java, 기능 제작, 디자인 구성 및 제작</center>
+이우진  | <center>layout 구성, 주제선정, layout 구성</center>
+조은솔  | <center>layout 구성, 아이콘 제작, intro 화면 제작</center>
+
