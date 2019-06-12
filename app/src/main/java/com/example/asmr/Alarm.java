@@ -34,11 +34,8 @@ public class Alarm extends Fragment {
         GlideDrawableImageViewTarget gifImage = new GlideDrawableImageViewTarget(sleep);
         Glide.with(this).load(R.drawable.sleep).into(gifImage);
 
-        View view = inflater.inflate(R.layout.fragment_alarm, null);
-
         ArrayAdapter adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_selectable_list_item, LIST_MENU);
-
-        ListView listview = (ListView) view.findViewById(R.id.listview1);
+        ListView listview = (ListView) rootView.findViewById(R.id.listview1);
         listview.setAdapter(adapter) ;
 
 

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#333"
     tools:context=".Record">
 
     <LinearLayout
@@ -14,7 +15,6 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:id="@+id/button22"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:background="@android:drawable/editbox_background_normal" />
 
@@ -22,7 +22,6 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:id="@+id/button29"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:background="@android:drawable/editbox_background_normal" />
 
@@ -30,7 +29,6 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:id="@+id/button28"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:background="@android:drawable/editbox_background_normal" />
 
@@ -38,7 +36,6 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:id="@+id/button27"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:background="@android:drawable/editbox_background_normal" />
 
@@ -46,7 +43,6 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:id="@+id/button26"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:background="@android:drawable/editbox_background_normal" />
 
@@ -54,7 +50,6 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:id="@+id/button25"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:background="@android:drawable/editbox_background_normal" />
 
@@ -62,7 +57,6 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:id="@+id/button24"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:background="@android:drawable/editbox_background_normal" />
 
@@ -70,7 +64,6 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:id="@+id/button23"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:background="@android:drawable/editbox_background_normal" />
 
@@ -78,7 +71,6 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:id="@+id/button21"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:background="@android:drawable/editbox_background_normal" />
 
@@ -93,55 +85,49 @@
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:id="@+id/button30"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:layout_marginTop="40dp"
-            android:background="@android:drawable/screen_background_dark" />
+            android:background="@color/colorPrimaryDark" />
 
         <Button
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:id="@+id/button37"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:layout_marginTop="20dp"
-            android:background="@android:drawable/screen_background_dark" />
+            android:background="@color/colorPrimaryDark" />
 
         <Button
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:id="@+id/button36"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:layout_marginTop="80dp"
-            android:background="@android:drawable/screen_background_dark" />
+            android:background="@color/colorPrimaryDark" />
 
         <Button
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:id="@+id/button35"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:layout_marginTop="20dp"
-            android:background="@android:drawable/screen_background_dark" />
+            android:background="@color/colorPrimaryDark" />
 
         <Button
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:id="@+id/button34"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:layout_marginTop="20dp"
-            android:background="@android:drawable/screen_background_dark" />
+            android:background="@color/colorPrimaryDark" />
 
         <Button
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:id="@+id/button32"
-            android:onClick="mOnClick"
             android:layout_gravity="right"
             android:layout_marginTop="80dp"
-            android:background="@android:drawable/screen_background_dark" />
+            android:background="@color/colorPrimaryDark" />
     </LinearLayout>
     <!--<LinearLayout-->
         <!--android:layout_width="match_parent"-->
