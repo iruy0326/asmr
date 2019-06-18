@@ -1,4 +1,4 @@
-![home_logo](https://user-images.githubusercontent.com/48500268/59329975-28417780-8d2b-11e9-9197-f058bc0af5fa.png)
+![home_logo](https://user-images.githubusercontent.com/48500268/59690128-d6fa2200-921b-11e9-9c56-f842745032e6.png)
 
 > > # 모바일 프로젝트 - asmr
 
@@ -21,11 +21,11 @@
 ### 3. 어플 주요 구성
  - Sound : 종류별 음악 듣기 가능(음악재생, 일시정지, 음악정지)
  - Play : asmr을 들으면서 칠 수 있는 피아노 기능
- - List : 리스트에서 원하는 동물 클릭 시 이미지와 함께 소리(+검색기능)
+ - Link : asmr 유튜버들의 이름과 링크정보
  
 ### 4. 사용 기능
  - Mediaplayer : 음악 감상
- - Listview : 소리 목록
+ - Listview : 유튜버 목록
  - Fragment..
 
 ### 4. 원활한 감상을 도와줄 도구
@@ -37,7 +37,7 @@
 ### 5. 팀원 역할 구분
 팀원명  | 역할
 ------------- | -------------
-이유리  | <center>layout 구성 및 java, 기능 제작, 디자인 구성 및 제작</center>
+이유리  | <center>전체적인 layout 구성 및 java, 기능 제작, 디자인 아이디어 구성 및 제작</center>
 이우진  | <center>layout 구성, 주제선정</center>
 조은솔  | <center>layout 구성, 아이콘 제작, intro 화면 제작</center>
 
