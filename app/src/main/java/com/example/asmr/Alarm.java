@@ -19,7 +19,22 @@ import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
  * A simple {@link Fragment} subclass.
  */
 public class Alarm extends Fragment {
-    static final String[] LIST_MENU = {"LIST1", "LIST2", "LIST3", "LIST4", "LIST5", "LIST6", "LIST7", "LIST8", "LIST9", "LIST10", "LIST11", "LIST12"};
+
+
+    static final String[] LIST_MENU = {
+            "Sweet Carol  https://www.youtube.com/user/sweetcarol11",
+            "rappeler하쁠리  https://www.youtube.com/channel/UCa_ZCXMQ57PDcpE_3tPOW1g",
+            "VIVA ASMR  https://www.youtube.com/channel/UCiorb8zE67MvrBQGagNWutQ",
+            "Dana ASMR  https://www.youtube.com/user/dahampark",
+            "hatomugi ASMR  https://www.youtube.com/channel/UCue0AhOm8SARARIcT-0mE1w",
+            "ASMR Cherry Crush  https://www.youtube.com/channel/UCp5oSl262QFMOsjKj_kYILA",
+            "MassageASMR  https://www.youtube.com/user/MassageASMR",
+            "FredsVoice ASMR  https://www.youtube.com/user/WhisperMister1",
+            "RoseASMR  https://www.youtube.com/channel/UCGVV7XI1shSNCaF4dmYsOCg",
+            "ASMR PPOMO 뽀모  https://www.youtube.com/user/PPOMODOLI",
+            "ASMRSurge  https://www.youtube.com/user/ASMRSURGE",
+            "ASMR KittyKlaw  https://www.youtube.com/channel/UCo-gAYrvd7WIrCRsNueddtQ"
+    };
 
     public Alarm() {
         // Required empty public constructor

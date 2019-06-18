@@ -26,7 +26,7 @@ public class Main2Activity_tapping extends AppCompatActivity {
         btn2 = (Button) findViewById(R.id.button1_2);
         btn3 = (Button) findViewById(R.id.button1_3);
         text1 = (TextView) findViewById(R.id.text1);
-        mp = MediaPlayer.create(Main2Activity_tapping.this, R.raw.chacha);
+        mp = MediaPlayer.create(Main2Activity_tapping.this, R.raw.tapping1);
 
         seekBar = (SeekBar) findViewById(R.id.playbar1);
         seekBar.setVisibility(ProgressBar.VISIBLE);

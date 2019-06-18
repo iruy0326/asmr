@@ -24,174 +24,200 @@
             android:background="@drawable/nature">
 
         </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#333"
+        android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#333"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="- Tapping sound -"
+                android:textColor="#fff"
+                android:layout_margin="20dp" />
+
+            <SeekBar
+                android:id="@+id/playbar1"
+                android:layout_height="wrap_content"
+                android:layout_width="320dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:progress="0"
+                android:padding="10dp"
+                android:max="60000" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="50dp"
+                android:textColor="#fff" />
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_gravity="center"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="- 음악 재생 플레이어 -"
+                android:layout_height="match_parent"
+                android:background="#333"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button1-1"
+                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginRight="10dp"
+                    android:text="PLAY"
                     android:textColor="#fff"
-                    android:layout_margin="20dp" />
+                    android:background="#444"/>
 
-                <SeekBar
-                    android:id="@+id/playbar1"
-                    android:layout_height="wrap_content"
-                    android:layout_width="320dp"
-                    android:layout_gravity="center_vertical|center_horizontal"
-                    android:progress="0"
-                    android:padding="10dp"
-                    android:max="60000" />
+                <Button
+                    android:id="@+id/button1-2"
+                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_marginRight="10dp"
+                    android:text="PAUSE"
+                    android:textColor="#fff"
+                    android:background="#444"/>
 
-                <TextView
-                    android:id="@+id/text1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginRight="50dp"
-                    android:textColor="#fff" />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#333"
-                    android:orientation="horizontal">
-                    <Button
-                        android:id="@+id/button1-1"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:layout_marginLeft="75dp"
-                        android:text="음악재생" />
-
-                    <Button
-                        android:id="@+id/button1-2"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="일시정지" />
-
-                    <Button
-                        android:id="@+id/button1-3"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="음악정지" />
-                </LinearLayout>
+                <Button
+                    android:id="@+id/button1-3"
+                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:text="STOP"
+                    android:textColor="#fff"
+                    android:background="#444"/>
             </LinearLayout>
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="- Tapping sound -"
+                android:layout_margin="20dp"
+                android:textColor="#fff"/>
+
+            <SeekBar
+                android:id="@+id/playbar2"
+                android:layout_height="wrap_content"
+                android:layout_width="320dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:progress="0"
+                android:padding="10dp"
+                android:max="60000" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:textColor="#fff"/>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_gravity="center"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="- 음악 재생 플레이어 -"
-                    android:layout_margin="20dp"
-                    android:textColor="#fff"/>
-
-                <SeekBar
-                    android:id="@+id/playbar2"
-                    android:layout_height="wrap_content"
-                    android:layout_width="320dp"
-                    android:layout_gravity="center_vertical|center_horizontal"
-                    android:progress="0"
-                    android:padding="10dp"
-                    android:max="60000" />
-
-                <TextView
-                    android:id="@+id/text2"
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:layout_gravity="right"
+                android:layout_height="match_parent"
+                android:background="#333"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button2-1"
+                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_marginLeft="85dp"
                     android:layout_marginRight="10dp"
-                    android:textColor="#fff"/>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#333"
-                    android:orientation="horizontal">
-                    <Button
-                        android:id="@+id/button2-1"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:layout_marginLeft="75dp"
-                        android:text="음악재생" />
+                    android:text="PLAY"
+                    android:textColor="#fff"
+                    android:background="#444"/>
 
-                    <Button
-                        android:id="@+id/button2-2"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="일시정지" />
+                <Button
+                    android:id="@+id/button2-2"
+                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_marginRight="10dp"
+                    android:text="PAUSE"
+                    android:textColor="#fff"
+                    android:background="#444"/>
 
-                    <Button
-                        android:id="@+id/button2-3"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="음악정지" />
-                </LinearLayout>
+                <Button
+                    android:id="@+id/button2-3"
+                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_marginRight="10dp"
+                    android:text="STOP"
+                    android:textColor="#fff"
+                    android:background="#444"/>
             </LinearLayout>
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="- Tapping sound -"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:textColor="#fff"/>
+
+            <SeekBar
+                android:id="@+id/playbar3"
+                android:layout_height="wrap_content"
+                android:layout_width="320dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:progress="0"
+                android:padding="10dp"
+                android:max="60000" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:textColor="#fff"/>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="- 음악 재생 플레이어 -"
-                    android:layout_margin="20dp"
-                    android:layout_gravity="center"
-                    android:textColor="#fff"/>
-
-                <SeekBar
-                    android:id="@+id/playbar3"
-                    android:layout_height="wrap_content"
-                    android:layout_width="320dp"
-                    android:layout_gravity="center_vertical|center_horizontal"
-                    android:progress="0"
-                    android:padding="10dp"
-                    android:max="60000" />
-
-                <TextView
-                    android:id="@+id/text3"
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:layout_gravity="right"
+                android:layout_height="match_parent"
+                android:background="#333"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button3-1"
+                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_marginLeft="85dp"
                     android:layout_marginRight="10dp"
-                    android:textColor="#fff"/>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#333"
-                    android:orientation="horizontal">
-                    <Button
-                        android:id="@+id/button3-1"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:layout_marginLeft="75dp"
-                        android:text="음악재생" />
+                    android:text="PLAY"
+                    android:textColor="#fff"
+                    android:background="#444"/>
 
-                    <Button
-                        android:id="@+id/button3-2"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="일시정지" />
+                <Button
+                    android:id="@+id/button3-2"
+                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_marginRight="10dp"
+                    android:text="PAUSE"
+                    android:textColor="#fff"
+                    android:background="#444"/>
 
-                    <Button
-                        android:id="@+id/button3-3"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="음악정지" />
-                </LinearLayout>
+                <Button
+                    android:id="@+id/button3-3"
+                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_marginRight="10dp"
+                    android:text="STOP"
+                    android:textColor="#fff"
+                    android:background="#444"/>
             </LinearLayout>
+        </LinearLayout>
 
 
         </LinearLayout>

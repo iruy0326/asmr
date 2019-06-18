@@ -39,7 +39,7 @@
                     android:layout_gravity="center"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="- 음악 재생 플레이어 -"
+                    android:text="- Tapping sound -"
                     android:textColor="#fff"
                     android:layout_margin="20dp" />
 
@@ -66,22 +66,30 @@
                     android:orientation="horizontal">
                     <Button
                         android:id="@+id/button1-1"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:layout_marginLeft="75dp"
-                        android:text="음악재생" />
+                        android:layout_height="30dp"
+                        android:layout_width="75dp"
+                        android:layout_marginLeft="85dp"
+                        android:layout_marginRight="10dp"
+                        android:text="PLAY"
+                        android:textColor="#fff"
+                        android:background="#444"/>
 
                     <Button
                         android:id="@+id/button1-2"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="일시정지" />
+                        android:layout_height="30dp"
+                        android:layout_width="75dp"
+                        android:layout_marginRight="10dp"
+                        android:text="PAUSE"
+                        android:textColor="#fff"
+                        android:background="#444"/>
 
                     <Button
                         android:id="@+id/button1-3"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="음악정지" />
+                        android:layout_height="30dp"
+                        android:layout_width="75dp"
+                        android:text="STOP"
+                        android:textColor="#fff"
+                        android:background="#444"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -93,7 +101,7 @@
                     android:layout_gravity="center"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="- 음악 재생 플레이어 -"
+                    android:text="- Tapping sound -"
                     android:layout_margin="20dp"
                     android:textColor="#fff"/>
 
@@ -120,22 +128,31 @@
                     android:orientation="horizontal">
                     <Button
                         android:id="@+id/button2-1"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:layout_marginLeft="75dp"
-                        android:text="음악재생" />
+                        android:layout_height="30dp"
+                        android:layout_width="75dp"
+                        android:layout_marginLeft="85dp"
+                        android:layout_marginRight="10dp"
+                        android:text="PLAY"
+                        android:textColor="#fff"
+                        android:background="#444"/>
 
                     <Button
                         android:id="@+id/button2-2"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="일시정지" />
+                        android:layout_height="30dp"
+                        android:layout_width="75dp"
+                        android:layout_marginRight="10dp"
+                        android:text="PAUSE"
+                        android:textColor="#fff"
+                        android:background="#444"/>
 
                     <Button
                         android:id="@+id/button2-3"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="음악정지" />
+                        android:layout_height="30dp"
+                        android:layout_width="75dp"
+                        android:layout_marginRight="10dp"
+                        android:text="STOP"
+                        android:textColor="#fff"
+                        android:background="#444"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -146,7 +163,7 @@
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="- 음악 재생 플레이어 -"
+                    android:text="- Tapping sound -"
                     android:layout_margin="20dp"
                     android:layout_gravity="center"
                     android:textColor="#fff"/>
@@ -174,22 +191,31 @@
                     android:orientation="horizontal">
                     <Button
                         android:id="@+id/button3-1"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:layout_marginLeft="75dp"
-                        android:text="음악재생" />
+                        android:layout_height="30dp"
+                        android:layout_width="75dp"
+                        android:layout_marginLeft="85dp"
+                        android:layout_marginRight="10dp"
+                        android:text="PLAY"
+                        android:textColor="#fff"
+                        android:background="#444"/>
 
                     <Button
                         android:id="@+id/button3-2"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="일시정지" />
+                        android:layout_height="30dp"
+                        android:layout_width="75dp"
+                        android:layout_marginRight="10dp"
+                        android:text="PAUSE"
+                        android:textColor="#fff"
+                        android:background="#444"/>
 
                     <Button
                         android:id="@+id/button3-3"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="음악정지" />
+                        android:layout_height="30dp"
+                        android:layout_width="75dp"
+                        android:layout_marginRight="10dp"
+                        android:text="STOP"
+                        android:textColor="#fff"
+                        android:background="#444"/>
                 </LinearLayout>
             </LinearLayout>
 

@@ -86,21 +86,27 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:layout_gravity="center_horizontal"
-                    android:text="Tapping" />
+                    android:text="Tapping"
+                    android:textColor="#fff"
+                    android:background="#373462"/>
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:layout_gravity="center_horizontal"
-                    android:text="Whisper" />
+                    android:text="Whisper"
+                    android:textColor="#fff"
+                    android:background="#373462"/>
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:layout_gravity="center_horizontal"
-                    android:text="Mouth-Sound" />
+                    android:text="Mouth-Sound"
+                    android:textColor="#fff"
+                    android:background="#373462"/>
 
                 <Button
                     android:id="@+id/button4"
@@ -108,7 +114,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="15dp"
-                    android:text="Nature-Sound" />
+                    android:text="Nature-Sound"
+                    android:textColor="#fff"
+                    android:background="#373462"/>
 
             </LinearLayout>
 
